@@ -526,6 +526,7 @@ textarea:focus {
 .promo_content img {
     display: block;
     margin: 30px auto;
+    max-width: 100%;
 }
 
 .promo_footer {
@@ -647,7 +648,7 @@ textarea:focus {
 }
 
 .services_title {
-    padding: 13px 0 13px 0;
+    padding: 13px 0 26px 0;
 }
 
 .services_title h3 {
@@ -667,14 +668,7 @@ textarea:focus {
 }
 
 .service_item > div:nth-child(1) {
-    width: calc(100% - 50px);
-    padding: 0 10px 0 0;
-}
-
-.service_item > div:nth-child(2) {
-    width: 50px;
-    padding: 0 0 0 10px;
-    text-align: right;
+    width: 100%;
 }
 
 .service_item > div:nth-child(1) h3 {
@@ -693,15 +687,6 @@ textarea:focus {
     letter-spacing: -0.033em;
     color: #0E1011;
     opacity: .8;
-}
-
-.service_item > div:nth-child(2) p {
-    display: inline-block;
-    vertical-align: top;
-    font-size: 14px;
-    line-height: 100%;
-    color: #0E1011;
-    border-bottom: 1px solid #0E1011;
 }
 
 /*-- /Section 3 --*/
@@ -747,6 +732,7 @@ textarea:focus {
 }
 
 .thumb_2 h3 {
+    padding-bottom: 7px;
     font-weight: 700;
     font-size: 16px;
     line-height: 110%;
@@ -767,7 +753,7 @@ textarea:focus {
 /*-- Section 5 --*/
 
 .price_table_sect {
-    width: 570px;
+    max-width: 570px;
     margin: 0 auto;
     padding: 111px 0 20px 0;
 }
@@ -782,10 +768,6 @@ textarea:focus {
     line-height: 100%;
     letter-spacing: -0.043em;
     color: #0E1011;
-}
-
-.price_table_wrapp {
-
 }
 
 .price_table_header {

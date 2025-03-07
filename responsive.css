@@ -1,13 +1,344 @@
-@media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 1124px) {
 
+/*-- Section 6 --*/
 
+.pack_thumb {
+    width: calc(50% - 20px);
+    margin: 10px 10px;
+}
+
+/*-- /Section 6 --*/
 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 960px) {
 
-#resp_nav {
-    display: block !important;
+h2 {
+    font-size: 24px;
 }
+
+/*-- Header --*/
+
+.header_site > div:nth-child(even) {
+    padding: 8px 0 10px 10px;
+}
+
+/*-- /Header --*/
+
+/*-- Section 1 --*/
+
+.promo_footer {
+    display: block;
+    padding: 5px 0 36px 50%;
+}
+
+.promo_footer p {
+    padding: 2px 0;
+}
+
+/*-- /Section 1 --*/
+
+/*-- Section 2 --*/
+
+.sect_2 {
+    padding: 57px 0 10px 0;
+}
+
+.h2_wrapp {
+    max-width: 450px;
+}
+
+.h2_descript {
+    padding-left: 187px;
+}
+
+.thumbnails {
+    margin: 103px auto 1px auto;
+}
+
+.thumb_photo img {
+    height: 270px;
+}
+
+/*-- /Section 2 --*/
+
+/*-- Section 3 --*/
+
+.services {
+    max-width: 680px;
+    padding: 116px 0 20px 0;
+}
+
+.services_title {
+    text-align: center;
+}
+
+/*-- /Section 3 --*/
+
+/*-- Section 4 --*/
+
+.resp_row {
+    max-width: 560px;
+    padding: 81px 20px 0 20px;
+    margin: 0 auto;
+}
+
+.h2_wrapp_2 {
+    text-align: center;
+}
+
+.h2_wrapp_2 h2 {
+    font-weight: 500;
+}
+
+.h2_descript_2 {
+    padding-left: 41%;
+}
+
+.thumb_2 {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.h2_wrapp_resp {
+    max-width: 490px;
+}
+
+/*-- /Section 4 --*/
+
+/*-- Section 5 --*/
+
+.price_table_sect {
+    padding: 69px 0 20px 0;
+}
+
+/*-- /Section 5 --*/
+
+/*-- Section 6 --*/
+
+.sect_6 {
+    padding: 148px 0 20px 0;
+}
+
+.h2_wrapp_3 {
+    padding: 7px 0;
+    text-align: center;
+}
+
+.h2_wrapp_3 h2 {
+    font-size: 24px;
+}
+
+.pack_thumbs_wrapp {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 27px 0 20px 0;
+}
+
+.pack_thumbs_footer {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px 0 8px 0;
+}
+
+.pack_thumbs_footer h2 {
+    padding: 45px 0 30px 0;
+    font-size: 34px;
+}
+
+/*-- /Section 6 --*/
+
+/*-- Footer --*/
+
+.footer_section {
+    padding: 24px 20px 28px 20px;
+}
+
+.footer_section h2 {
+    padding-top: 52px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.bottom_row {
+    justify-content: flex-start;
+}
+
+/*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 768px) {
+
+/*-- Section 1 --*/
+
+.promo > .row {
+    padding: 0 38px;
+}
+
+.promo_footer {
+    padding: 5px 0 36px 25px;
+}
+
+/*-- /Section 1 --*/
+
+}
+
+@media only screen and (max-width: 600px) {
+
+.row {
+    padding: 0 20px;
+}
+
+/*-- Section 1 --*/
+
+.promo_content img {
+    margin: 17px auto;
+}
+
+.promo_content h1 {
+    font-size: 13px;
+}
+
+.promo_content p {
+    font-size: 13px;
+}
+
+/*-- /Section 1 --*/
+
+/*-- Section 2 --*/
+
+.sect_2 {
+    padding: 21px 0 10px 0;
+}
+
+.h2_descript {
+    padding-left: 70px;
+}
+
+/*-- /Section 2 --*/
+
+/*-- Section 3 --*/
+
+.services {
+    padding: 61px 0 20px 0;
+}
+
+.services_title h3 {
+    font-size: 24px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.service_item > div:nth-child(1) h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*-- /Section 3 --*/
+
+/*-- Section 4 --*/
+
+.resp_row {
+    padding: 22px 20px 0 20px;
+}
+
+.h2_wrapp_2 h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.h2_descript_2 {
+    padding-left: 27%;
+}
+
+.thumbnails_2 {
+    padding: 14px 0 6px 0;
+}
+
+/*-- /Section 4 --*/
+
+/*-- Section 6 --*/
+
+.sect_6 {
+    padding: 63px 0 10px 0;
+}
+
+.h2_wrapp_3 {
+    padding: 0;
+    text-align: left;
+}
+
+.h2_wrapp_3 h2 {
+    font-weight: 700;
+}
+
+.pack_thumbs_wrapp {
+    padding: 27px 0 1px 0;
+}
+
+.pack_thumb {
+    width: calc(100% - 20px);
+    margin: 10px 10px;
+}
+
+.pack_thumbs_footer {
+    padding: 1px 0 8px 0;
+}
+
+.pack_thumbs_footer p {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.pack_thumbs_footer h2 {
+    padding: 34px 0 30px 0;
+    font-size: 24px;
+}
+
+/*-- /Section 6 --*/
+
+/*-- Footer --*/
+
+.footer_section {
+    padding: 24px 20px 26px 20px;
+}
+
+.footer_section h2 {
+    padding-top: 52px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.bottom_row p {
+    font-size: 12px;
+}
+
+/*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 400px) {
+
+/*-- Section 2 --*/
+
+.thumbnails {
+    margin: 40px auto 1px auto;
+}
+
+.thumbnails:before {
+    display: none;
+}
+
+.thumb_photo {
+    width: 100%;
+    padding: 30px 10px;
+}
+
+.thumb_photo img {
+    height: 300px;
+}
+
+/*-- /Section 2 --*/
 
 }
