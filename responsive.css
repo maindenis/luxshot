@@ -1,3 +1,19 @@
+@media only screen and (max-width: 1240px) {
+
+/*-- Section 1 --*/
+
+.left_slice:before {
+    right: 2%;
+}
+
+.right_slice:before {
+    left: 2%;
+}
+
+/*-- /Section 1 --*/
+
+}
+
 @media only screen and (max-width: 1124px) {
 
 /*-- Section 6 --*/

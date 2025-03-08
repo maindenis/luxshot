@@ -30,16 +30,41 @@
 	<div class="content">
 	<!-- Section 1 -->
 	<section class="promo">
-		<div class="row">
-			<div class="promo_content">
-				<h1>LUXSHOT</h1>
-				<p>— больше чем фотостудия</p>
-				<img src="img/h1.png" alt="" loading="lazy" />
+		<div class="row" id="coords"></div>
+		<div class="slider_wrapp">
+			<div class="left_slice"></div>
+			<div class="right_slice"></div>
+			<div class="slider">
+				<div class="slide">
+					<div class="slide_bg" style="background-image: url(img/1.jpg);">
+						<video id="video_1" src="video/2.mp4" autoplay="" muted="" playsinline="" loop="" poster="img/promo_bg_2.jpg"></video>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide_bg" style="background-image: url(img/bg.jpg);"></div>
+				</div>
+				<div class="slide">
+					<div class="slide_bg" style="background-image: url(img/1.jpg);">
+						<video id="video_2" src="video/3.mp4" autoplay="" muted="" playsinline="" loop="" poster="img/promo_bg_3.jpg"></video>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="slide_bg" style="background-image: url(img/1.jpg);"></div>
+				</div>
 			</div>
 		</div>
-		<div class="promo_footer">
-			<p>LUX – свет, блеск, роскошь</p>
-			<p>SHOT – кадр, точность, выстрел, профессионализм</p>
+		<div class="promo_content_wrapp">
+			<div class="row">
+				<div class="promo_content">
+					<h1>LUXSHOT</h1>
+					<p>— больше чем фотостудия</p>
+					<img src="img/h1.png" alt="" loading="lazy" />
+				</div>
+			</div>
+			<div class="promo_footer">
+				<p>LUX – свет, блеск, роскошь</p>
+				<p>SHOT – кадр, точность, выстрел, профессионализм</p>
+			</div>
 		</div>
 		<img class="promo_img" src="img/bg.jpg" alt="" loading="lazy" />
 	</section>
@@ -466,8 +491,10 @@
 	<!-- /Footer -->
 	</div>
 	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
 	<link rel="stylesheet" type="text/css" href="vendors/css/fancybox.css">
 	<script src="vendors/js/jquery.js"></script>
+	<script src="slick/slick.js"></script>
 	<script src="vendors/js/fancybox.js"></script>
 	<script src="js/scripts.js"></script>
 </body>
